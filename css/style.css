@@ -1,15 +1,22 @@
-body { 
-	padding-top: 70px; 
+h1 {
+  font-family: 'Open Sans', sans-serif;
 }
-.container.home {
-	display: table;
-	width: 100%; 	
 
+
+
+body { 
+  padding-top: 50px; 
 }
+
 .hero {
-	display: table-cell;
-	vertical-align: middle;
-	text-align: center;
+  display: block;
+  text-align: center;
+  background-color: rgba(0,0,0,0.5);
+  color: #fff;
+  padding: 20px;
+  margin-bottom: 40px;
+
+  
 }
 /* Sticky footer styles from bootstrap
 -------------------------------------------------- */
@@ -38,7 +45,7 @@ body {
 /* Not required for template or sticky footer method. */
 
 body > .container {
-  padding: 60px 15px 0;
+  padding: 0px 15px 0;
 }
 .container .text-muted {
   margin: 20px 0;
