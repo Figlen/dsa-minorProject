@@ -1,21 +1,27 @@
+/*base style*/
+
 h1 {
   font-family: 'Open Sans', sans-serif;
 }
 
 body { 
-  padding-top: 50px; 
+  padding-top: 70px; 
 }
 
+/*specific styles*/
 .hero {
   display: block;
   text-align: center;
   background-color: rgba(0,0,0,0.5);
   color: #fff;
   padding: 20px;
+  margin-top: -20px;
   margin-bottom: 40px;
-
-  
 }
+
+
+
+
 /* Sticky footer styles from bootstrap
 -------------------------------------------------- */
 html {
