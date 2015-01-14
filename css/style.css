@@ -1,11 +1,15 @@
+/* Default Styles */
+
 h1 {
   font-family: 'Open Sans', sans-serif;
 }
 
 body { 
-  padding-top: 70px; 
+  padding-top: 200px; 
     background-color: #f2f2f2;
 }
+
+/*  Homepage */
 
 .hero {
   display: block;
@@ -17,15 +21,36 @@ body {
   margin-top: -20px;
 }
 
-.container.results {
-
-}
-
 /* Navbar */
 
 .navbar {
   background-color: white;
+  height: 180px;
 }
+
+.navbarContainer {
+  margin-top: 140px;
+}
+
+.navbar-brand {
+  height: 180px;
+}
+
+.navbar-nav {
+  background-color: #e58018;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+  padding-top:      8px;
+  padding-bottom:   8px;
+}
+
+.navbar-default .navbar-nav > .active a {
+  background-color: #A55C11;
+  color: white;
+}
+
 
 /* results Page */
 
@@ -34,9 +59,7 @@ body {
   background-color: white;
 }
 
-.div.cartodb-tooltip-content-wrapper.dark {
-  background-color: red !important;
-}
+
 /* Sticky footer styles from bootstrap
 -------------------------------------------------- */
 html {
