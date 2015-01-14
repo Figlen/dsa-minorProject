@@ -54,11 +54,32 @@ body {
 
 /* results Page */
 
-.mapContainer {
-  padding: 30px;
+.sectionContainer {
+  padding: 20px;
   background-color: white;
+  position: relative;
+  margin-bottom: 20px;
 }
 
+/*mapResultsContainer*/
+.sectionHeader{
+  position: absolute;
+  background: #937388;
+  padding: 6px 16px;
+  margin: -20px;
+  color: white; 
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+<<<<<<< HEAD
+=======
+#resultsSearch{
+  margin-top: 30px;
+  width: 100%;
+}
+
+>>>>>>> FETCH_HEAD
 
 /* Sticky footer styles from bootstrap
 -------------------------------------------------- */
