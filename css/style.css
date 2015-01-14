@@ -3,7 +3,7 @@ h1 {
 }
 
 body { 
-  padding-top: 50px; 
+  padding-top: 70px; 
 }
 
 .hero {
@@ -13,6 +13,7 @@ body {
   color: #fff;
   padding: 20px;
   margin-bottom: 40px;
+  margin-top: -20px;
 
   
 }
