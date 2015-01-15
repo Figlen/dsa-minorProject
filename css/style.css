@@ -31,6 +31,25 @@ Blue    #32948A
   margin-top: -20px;
 }
 
+body.home {
+  background: url(../img/homeBg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* login */
+
+body.loginBg {
+  background: url(../img/loginBg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
 /* Navbar */
 
 .navbar {
@@ -62,9 +81,59 @@ Blue    #32948A
   padding-bottom:   8px;
 }
 
+.navbar-default .navbar-nav > li > a:hover {
+  background-color: #A55C11;
+  color: #fff;
+}
+
 .navbar-default .navbar-nav > .active a {
   background-color: #A55C11;
   color: white;
+}
+.navbar-default .navbar-nav > .active a:hover {
+  background-color: #A55C11;
+  color: white;
+}
+
+/* responsive nav style */
+
+@media all and (max-width: 767px) {
+  .navbar {
+    height: 120px;
+  }
+  .navbar-brand {
+    height: 120px;
+  }
+  body {
+    padding-top: 140px;
+  }
+  .navbar-brand img {
+    max-height: 70px;
+    display: inline;
+  }
+
+  .navbar-brand  {
+    width: 100%;
+  }
+}
+
+.navbarRes {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #FF6F22;
+}
+
+.navbarRes a {
+  padding: 8px 10px;
+  display: block;
+  color: white;
+}
+
+.navbarRes a:active {
+  background-color: #A55C11;
+  text-decoration: none;
 }
 
 
