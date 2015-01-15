@@ -163,6 +163,15 @@ body.loginBg {
   width: 100%;
 }
 
+/*login signup*/
+.loginPanel{
+  background-color: rgba(0,0,0,0.1);
+  padding: 20px;
+  margin-bottom: 100px;
+  display: inline-block;
+}
+
+
 
 
 
