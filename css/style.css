@@ -9,6 +9,16 @@ body {
     background-color: #f2f2f2;
 }
 
+/* Colours 
+
+Orange  #FF6F22 
+Purple  #937388 
+Yellow  #B4C277 
+Green   #5c7941 
+Blue    #32948A
+
+*/
+
 /*  Homepage */
 
 .hero {
@@ -28,8 +38,14 @@ body {
   height: 180px;
 }
 
+.navContainer {
+  position: relative;
+}
+
 .navbarContainer {
-  margin-top: 140px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
 
 .navbar-brand {
@@ -37,7 +53,7 @@ body {
 }
 
 .navbar-nav {
-  background-color: #e58018;
+  background-color: #FF6F22;
 }
 
 .navbar-default .navbar-nav > li > a {
