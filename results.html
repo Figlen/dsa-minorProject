@@ -12,9 +12,6 @@
     <!--font-awesome icons-->
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
-    <!-- CDN for nav menu -->
-    <link rel="stylesheet" href="http://cdn.mobify.com/modules/pikabu/0.2.1/pikabu-theme.min.css">
-    
     <!-- More Street Styles -->
     <link href="css/style.css" rel="stylesheet">
 
@@ -28,22 +25,26 @@
   <body>
     <!-- Fixed navbar -->
     <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
+      <div class="container navContainer">
+        
         <div class="navbar-header">
-          <a class="navbar-brand" href="#"><img src="img/logo.png" alt="More St Logo"> <div class="clearfix"></div></a>
-         
-        </div>
-        <div id="navbar">
-          <div class="navbarContainer">
-            <ul class="nav navbar-nav pull-right">
-              <li><a href="index.html">Home</a></li>
-              <li class="active"><a href="results.html">Results</a></li>
-              <li><a href="login.html">Login</a></li>
-            </ul>
+          <a class="navbar-brand" href="#">
+            <img src="img/logo.png" alt="More St Logo" class="img-responsive"> 
             <div class="clearfix"></div>
-          </div>
-        </div><!--/.nav-collapse -->
+          </a>
+        </div>
+
+        <div class="navbarContainer">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="results.html">Results</a></li>
+            <li><a href="login.html">Login</a></li>
+          </ul>
+          <div class="clearfix"></div>
+        </div>
+      
       </div>
+
     </nav>
 
 
@@ -83,19 +84,11 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
 
-    <!-- CDN for Pikabu menu -->
-    <script src="http://cdn.mobify.com/modules/pikabu/0.2.1/pikabu.min.js"></script>
-
     <!-- Inline Scripts -->
     <script type="text/javascript">
-    // All options are optional
-      var pikabu = new Pikabu({
-          // Specify left and right sidebar widths independently
-          widths: {
-              left: '70%',
-              right: '70%'
-          }
-      });
-</script>
+   
+
+    </script>
+
   </body>
 </html>
