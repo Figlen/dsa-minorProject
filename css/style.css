@@ -123,6 +123,14 @@ body.loginBg {
   .navbar-brand  {
     width: 100%;
   }
+
+  .hero h1 {
+    font-size: 1.5em;
+  }
+
+  .mapInner {
+    min-height: 250px;
+  }
 }
 
 .navbarRes {
@@ -152,6 +160,13 @@ body.loginBg {
   background-color: white;
   position: relative;
   margin-bottom: 20px;
+}
+
+.mapInner {
+  min-height: 500px;
+  background-image: url(../img/jimmy.png);
+  background-position: center; 
+  cursor: pointer;
 }
 
 /*mapResultsContainer*/
