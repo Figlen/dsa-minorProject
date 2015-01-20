@@ -65,18 +65,32 @@
             src='http://bbrhuft.cartodb.com/viz/99f07f46-92e1-11e4-b664-0e0c41326911/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreenoallowfullscreen msallowfullscreen></iframe>
           </div> 
         </div>
-        <div class="col-md-5">
+      <div class="col-md-4">
         <div class="sectionContainer">
           <div class="sectionHeader">Filter Results</div>
+          <div class="checkBoxes">
+            <div class="checkBox">
+              <img src="img/green_checked.png" onclick="swapMap()"><span>Producers</span> 
+            </div>
+            <div class="checkBox">
+              <img src="img/orange_checked.png"><span>Land Available</span>
+            </div>
+            <div class="checkBox">
+              <img src="img/yellow_unchecked.png"><span>Allotments</span>
+            </div>
+            <div class="checkBox">
+              <img src="img/purple_unchecked.png"><span>Markets</span>
+            </div>
+          </div>
         </div>
-        <div class="sectionContainer">
-          <div class="sectionHeader">Search Again</div>
-          <input type="search" placeholder="search Again" id="resultsSearch">
-        </div>
+            <div class="sectionContainer">
+              <input type="search" placeholder="Search Again" id="resultsSearch"><br><br>
+              <a class="btn btn-default" href="#" role="button">SEARCH AGAIN</a>
+            </div>
         </div>
       </div>
-      
     </div>
+
 
     <footer class="footer">
       <div class="container">

@@ -14,7 +14,8 @@ body {
 Orange  #FF6F22 
 Purple  #937388 
 Yellow  #B4C277 
-Green   #5c7941 
+Green   #5c7941
+Light Green #b6c374 
 Blue    #32948A
 
 */
@@ -159,11 +160,38 @@ body.loginBg {
   font-weight: 600;
 }
 
+.profile .sectionHeader{
+  position: absolute;
+  background: #b6c374;
+  padding: 6px 16px;
+  margin: -20px;
+  color: white; 
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
 
 #resultsSearch{
   margin-top: 30px;
   width: 100%;
 }
+
+.checkBoxes{
+  color: #937388;
+  padding: 30px;
+  font-weight: bold;
+}
+
+.checkBox img, .checkBox span{
+  padding: 10px;
+}
+
+.checkBox img{
+  cursor: pointer;
+}
+
+
+
 
 /*login signup*/
 .loginPanel{
@@ -177,6 +205,7 @@ body.loginBg {
 .btn {
 background-color: #FF6F22;
 color: white;
+font-weight: bold;
 }
 
 .emailLogin{
@@ -197,6 +226,38 @@ label{
   width: 104px;
 
 }
+
+/*profile page*/
+
+.profileName{
+  text-transform: uppercase;
+  color: #b6c374;
+  font-weight: 900;
+}
+
+.profileExtras{
+  background-color: #b6c374;
+  padding: 20px;
+  color: white;
+  position: relative;
+
+}
+
+.profileExtras .profileName{
+  text-transform: uppercase;
+  color: white;
+  font-weight: 900;
+}
+
+.profileIcon{
+  position: absolute;
+  right: 20px;
+  top: 20px;
+
+}
+
+
+
 
 
 
