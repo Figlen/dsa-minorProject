@@ -33,6 +33,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/green_checked.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1714,
+		"inputAbbreviatedPath": "\/img\/green_checked.png",
+		"outputAbbreviatedPath": "\/img\/green_checked.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/green_unchecked.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1454,
+		"inputAbbreviatedPath": "\/img\/green_unchecked.png",
+		"outputAbbreviatedPath": "\/img\/green_unchecked.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/homeBg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -40,6 +62,17 @@
 		"initialSize": 1.00278e+06,
 		"inputAbbreviatedPath": "\/img\/homeBg.jpg",
 		"outputAbbreviatedPath": "\/img\/homeBg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/Jimmy_Greenfingers.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 385294,
+		"inputAbbreviatedPath": "\/img\/Jimmy_Greenfingers.jpg",
+		"outputAbbreviatedPath": "\/img\/Jimmy_Greenfingers.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -66,6 +99,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/orange_checked.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/img\/orange_checked.png",
+		"outputAbbreviatedPath": "\/img\/orange_checked.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/orange_unchecked.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1493,
+		"inputAbbreviatedPath": "\/img\/orange_unchecked.png",
+		"outputAbbreviatedPath": "\/img\/orange_unchecked.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/purple_checked.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1762,
+		"inputAbbreviatedPath": "\/img\/purple_checked.png",
+		"outputAbbreviatedPath": "\/img\/purple_checked.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/purple_unchecked.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1466,
+		"inputAbbreviatedPath": "\/img\/purple_unchecked.png",
+		"outputAbbreviatedPath": "\/img\/purple_unchecked.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/twitter-icon.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -77,14 +154,27 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/index.html": {
-		"fileType": 8192,
+	"\/img\/yellow_checked.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
+		"initialSize": 1763,
+		"inputAbbreviatedPath": "\/img\/yellow_checked.png",
+		"outputAbbreviatedPath": "\/img\/yellow_checked.png",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/yellow_unchecked.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1485,
+		"inputAbbreviatedPath": "\/img\/yellow_unchecked.png",
+		"outputAbbreviatedPath": "\/img\/yellow_unchecked.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/js\/bootstrap.js": {
 		"fileType": 64,
@@ -118,33 +208,6 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
-		},
-	"\/login.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/login.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/profile.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/profile.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/results.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/results.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/test.html": {
 		"fileType": 8192,
