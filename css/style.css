@@ -240,6 +240,15 @@ label{
   padding: 20px;
   color: white;
   position: relative;
+  margin-bottom: 20px;
+
+
+}
+
+.profileExtras:last-child{
+  
+  margin-bottom: 0px;
+
 
 }
 
@@ -255,6 +264,45 @@ label{
   top: 20px;
 
 }
+
+.profileText{
+
+  font-weight: 600;
+  font-size: 1.1em;
+}
+
+/*
+  Ratings Stars http://dabblet.com/gist/1709019
+  (with as little code as possible)
+*/
+.rating {
+  unicode-bidi: bidi-override;
+  direction: ltr;
+  
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+  font-size: 1.5em;
+}
+.rating > span:hover,
+.rating > span:hover ~ span {
+  color: transparent;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+   left: 0; 
+   color: gold;
+}
+
+
+
+
+
+
 
 
 
