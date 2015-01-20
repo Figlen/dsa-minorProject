@@ -16,6 +16,7 @@ body {
 /* Colours 
 
 Orange  #FF6F22 
+Brown   #a55c11
 Purple  #937388 
 Yellow  #B4C277 
 Green   #5c7941
@@ -206,10 +207,21 @@ body.loginBg {
   color: white;
 }
 
-.btn {
+.btn-primary {
 background-color: #FF6F22;
-color: white;
 font-weight: bold;
+border-color: #FF6F22;
+}
+
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+background-color: #a55c11;
+border-color: #a55c11;
+}
+
+.btn{
+  border-radius: 0px;
+
 }
 
 .emailLogin{
@@ -245,15 +257,10 @@ label{
   color: white;
   position: relative;
   margin-bottom: 20px;
-
-
 }
 
 .profileExtras:last-child{
-  
   margin-bottom: 0px;
-
-
 }
 
 .profileExtras .profileName{
@@ -266,7 +273,6 @@ label{
   position: absolute;
   right: 20px;
   top: 20px;
-
 }
 
 .profileText{
@@ -275,13 +281,18 @@ label{
   font-size: 1.1em;
 }
 
+.reviewText {
+  margin-top: 10px;
+}
+
 /*
   Ratings Stars http://dabblet.com/gist/1709019
   (with as little code as possible)
 */
 .rating {
   unicode-bidi: bidi-override;
-  direction: ltr;
+  direction: rtl;
+  float: left;
   
 }
 .rating > span {
@@ -302,7 +313,14 @@ label{
    color: gold;
 }
 
+.quoteName{
+  font-weight: 600;
+  margin-top: -10px;
+}
 
+a.reviewMore {
+  color: white;
+}
 
 
 
