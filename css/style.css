@@ -219,9 +219,12 @@ background-color: #a55c11;
 border-color: #a55c11;
 }
 
-.btn{
-  border-radius: 0px;
+.input-group-lg>.form-control, .input-group-lg>.input-group-addon, .input-group-lg>.input-group-btn>.btn {
+  border-radius: 0;
+}
 
+.input-group.homeSearch {
+  border: 15px solid rgba(255, 255, 255, .2);
 }
 
 .emailLogin{
