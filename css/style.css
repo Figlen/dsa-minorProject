@@ -1,13 +1,29 @@
 /* Default Styles */
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Open Sans', sans-serif;
 }
 
+
+
 body { 
   padding-top: 200px; 
-    background-color: #f2f2f2;
+  background-color: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
 }
+
+
+/* Colours 
+
+Orange  #FF6F22 
+Brown   #a55c11
+Purple  #937388 
+Yellow  #B4C277 
+Green   #5c7941
+Light Green #b6c374 
+Blue    #32948A
+
+*/
 
 /*  Homepage */
 
@@ -21,6 +37,27 @@ body {
   margin-top: -20px;
 }
 
+body.home {
+  background: url(../img/homeBg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* login */
+
+body.loginBg {
+  background: url(../img/loginBg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+
 /* Navbar */
 
 .navbar {
@@ -28,8 +65,18 @@ body {
   height: 180px;
 }
 
+.navContainer {
+  position: relative;
+}
+
 .navbarContainer {
+<<<<<<< HEAD
   margin-top: 143px;
+=======
+  position: absolute;
+  right: 0;
+  bottom: 0;
+>>>>>>> FETCH_HEAD
 }
 
 .navbar-brand {
@@ -37,7 +84,7 @@ body {
 }
 
 .navbar-nav {
-  background-color: #e58018;
+  background-color: #FF6F22;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -46,9 +93,67 @@ body {
   padding-bottom:   8px;
 }
 
+.navbar-default .navbar-nav > li > a:hover {
+  background-color: #A55C11;
+  color: #fff;
+}
+
 .navbar-default .navbar-nav > .active a {
   background-color: #A55C11;
   color: white;
+}
+.navbar-default .navbar-nav > .active a:hover {
+  background-color: #A55C11;
+  color: white;
+}
+
+/* responsive nav style */
+
+@media all and (max-width: 767px) {
+  .navbar {
+    height: 120px;
+  }
+  .navbar-brand {
+    height: 120px;
+  }
+  body {
+    padding-top: 140px;
+  }
+  .navbar-brand img {
+    max-height: 70px;
+    display: inline;
+  }
+
+  .navbar-brand  {
+    width: 100%;
+  }
+
+  .hero h1 {
+    font-size: 1.5em;
+  }
+
+  .mapInner {
+    min-height: 250px;
+  }
+}
+
+.navbarRes {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #FF6F22;
+}
+
+.navbarRes a {
+  padding: 8px 10px;
+  display: block;
+  color: white;
+}
+
+.navbarRes a:active {
+  background-color: #A55C11;
+  text-decoration: none;
 }
 
 
@@ -59,6 +164,13 @@ body {
   background-color: white;
   position: relative;
   margin-bottom: 20px;
+}
+
+.mapInner {
+  min-height: 500px;
+  background-image: url(../img/jimmy.png);
+  background-position: center; 
+  cursor: pointer;
 }
 
 /*mapResultsContainer*/
@@ -72,11 +184,172 @@ body {
   font-weight: 600;
 }
 
+.profile .sectionHeader{
+  position: absolute;
+  background: #b6c374;
+  padding: 6px 16px;
+  margin: -20px;
+  color: white; 
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
 
 #resultsSearch{
   margin-top: 30px;
   width: 100%;
 }
+
+.checkBoxes{
+  color: #937388;
+  padding: 30px;
+  font-weight: bold;
+}
+
+.checkBox img, .checkBox span{
+  padding: 10px;
+}
+
+.checkBox img{
+  cursor: pointer;
+}
+
+
+
+
+/*login signup*/
+.loginPanel{
+  background-color: rgba(255,255,255,0.2);
+  padding: 20px;
+  margin-bottom: 100px;
+  display: inline-block;
+  color: white;
+}
+
+.btn-primary {
+background-color: #FF6F22;
+font-weight: bold;
+border-color: #FF6F22;
+}
+
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+background-color: #a55c11;
+border-color: #a55c11;
+}
+
+.input-group-lg>.form-control, .input-group-lg>.input-group-addon, .input-group-lg>.input-group-btn>.btn {
+  border-radius: 0;
+}
+
+.input-group.homeSearch {
+  border: 15px solid rgba(255, 255, 255, .2);
+}
+
+.emailLogin{
+  text-align: right;
+
+}
+.passwordLogin{
+  text-align: right;
+}
+
+.logInBtn{
+ margin-left: 100px;
+}
+
+label{
+  background-color: #937388;
+  padding: 5px;
+  width: 104px;
+
+}
+
+/*profile page*/
+
+.profileName{
+  text-transform: uppercase;
+  color: #b6c374;
+  font-weight: 900;
+}
+
+.profileExtras{
+  background-color: #b6c374;
+  padding: 20px;
+  color: white;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.profileExtras:last-child{
+  margin-bottom: 0px;
+}
+
+.profileExtras .profileName{
+  text-transform: uppercase;
+  color: white;
+  font-weight: 900;
+}
+
+.profileIcon{
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.profileText{
+
+  font-weight: 600;
+  font-size: 1.1em;
+}
+
+.reviewText {
+  margin-top: 10px;
+}
+
+/*
+  Ratings Stars http://dabblet.com/gist/1709019
+  (with as little code as possible)
+*/
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  float: left;
+  
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+  font-size: 1.5em;
+}
+.rating > span:hover,
+.rating > span:hover ~ span {
+  color: transparent;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+   left: 0; 
+   color: gold;
+}
+
+.quoteName{
+  font-weight: 600;
+  margin-top: -10px;
+}
+
+a.reviewMore {
+  color: white;
+}
+
+
+
+
+
+
+
 
 
 
