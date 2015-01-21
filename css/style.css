@@ -107,36 +107,6 @@ body.loginBg {
   color: white;
 }
 
-/* responsive nav style */
-
-@media all and (max-width: 767px) {
-  .navbar {
-    height: 120px;
-  }
-  .navbar-brand {
-    height: 120px;
-  }
-  body {
-    padding-top: 140px;
-  }
-  .navbar-brand img {
-    max-height: 70px;
-    display: inline;
-  }
-
-  .navbar-brand  {
-    width: 100%;
-  }
-
-  .hero h1 {
-    font-size: 1.5em;
-  }
-
-  .mapInner {
-    min-height: 250px;
-  }
-}
-
 .navbarRes {
   position: absolute;
   bottom: 0;
@@ -344,6 +314,58 @@ a.reviewMore {
   color: white;
 }
 
+/* Footer */
+
+footer {
+  padding-top: 20px;
+}
+
+.footerLinks {
+
+}
+
+.footerLink a {
+  font-size: .7em;
+  color: #999;
+}
+
+.footerLink.header {
+  font-size: .8em;
+  color: #666;
+  font-weight: 600;
+}
+
+/* responsive styles */
+
+@media all and (max-width: 767px) {
+  .navbar {
+    height: 120px;
+  }
+  .navbar-brand {
+    height: 120px;
+  }
+  body {
+    padding-top: 140px;
+  }
+  .navbar-brand img {
+    max-height: 70px;
+    display: inline;
+  }
+
+  .navbar-brand  {
+    width: 100%;
+  }
+
+  .hero h1 {
+    font-size: 1.5em;
+  }
+
+  .mapInner {
+    min-height: 250px;
+  }
+  
+}
+
 
 /* Sticky footer styles from bootstrap
 -------------------------------------------------- */
@@ -353,7 +375,7 @@ html {
 }
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 60px;
+  margin-bottom: 180px;
 }
 .footer {
   position: absolute;
@@ -361,7 +383,7 @@ body {
   width: 100%;
   left:0;
   /* Set the fixed height of the footer here */
-  height: 60px;
+  height: 180px;
 
   background-color: #fff;
 }
