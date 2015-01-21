@@ -166,8 +166,8 @@ body.loginBg {
 
 
 #resultsSearch{
-  margin-top: 30px;
   width: 100%;
+  padding: 5px;
 }
 
 .checkBoxes{
@@ -191,9 +191,10 @@ body.loginBg {
 .loginPanel{
   background-color: rgba(255,255,255,0.2);
   padding: 20px;
-  margin-bottom: 100px;
-  display: inline-block;
+  margin-bottom: 10px;
+  /*display: inline-block;*/
   color: white;
+  text-align: center;
 }
 
 .btn-primary {
@@ -208,24 +209,12 @@ background-color: #a55c11;
 border-color: #a55c11;
 }
 
-.input-group-lg>.form-control, .input-group-lg>.input-group-addon, .input-group-lg>.input-group-btn>.btn {
+.input-group-lg>.form-control, .input-group-lg>.input-group-addon, .input-group-lg>.input-group-btn>.btn, .btn {
   border-radius: 0;
 }
 
 .input-group.homeSearch {
   border: 15px solid rgba(255, 255, 255, .2);
-}
-
-.emailLogin{
-  text-align: right;
-
-}
-.passwordLogin{
-  text-align: right;
-}
-
-.logInBtn{
- margin-left: 100px;
 }
 
 label{
