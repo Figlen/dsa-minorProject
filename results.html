@@ -73,16 +73,20 @@
           <div class="sectionHeader">Filter Results</div>
           <div class="checkBoxes">
             <div class="checkBox">
-              <img src="img/green_checked.png" onclick="swapMap()"><span>Producers</span> 
+              <img id="greenImg" src="img/green_checked.png" onclick="checkCheck(this, 'green');">
+              <span>Producers</span> 
             </div>
             <div class="checkBox">
-              <img src="img/orange_checked.png"><span>Land Available</span>
+              <img id="orangeImg" src="img/orange_checked.png" onclick="checkCheck(this, 'orange');">
+              <span>Land Available</span>
             </div>
             <div class="checkBox">
-              <img src="img/yellow_unchecked.png"><span>Allotments</span>
+              <img id="yellowImg" src="img/yellow_unchecked.png" onclick="checkCheck(this, 'yellow');">
+              <span>Allotments</span>
             </div>
             <div class="checkBox">
-              <img src="img/purple_unchecked.png"><span>Markets</span>
+              <img id="purpleImg" src="img/purple_unchecked.png" onclick="checkCheck(this, 'purple');">
+              <span>Markets</span>
             </div>
           </div>
         </div>
@@ -110,7 +114,7 @@
     <script src="js/bootstrap.min.js"></script>
 
     <!-- Inline Scripts -->
-    <script type="text/javascript">
+    <script src="js/scripts.js">
    
 
     </script>

@@ -70,9 +70,13 @@ body.loginBg {
 }
 
 .navbarContainer {
+
+  margin-top: 143px;
+
   position: absolute;
   right: 0;
   bottom: 0;
+
 }
 
 .navbar-brand {
@@ -341,14 +345,6 @@ a.reviewMore {
 }
 
 
-
-
-
-
-
-
-
-
 /* Sticky footer styles from bootstrap
 -------------------------------------------------- */
 html {
@@ -389,19 +385,4 @@ body > .container {
 
 code {
   font-size: 80%;
-}
-
-
-/*bootsnipp login style*/
-.stylish-input-group .input-group-addon{
-    background: white !important; 
-}
-.stylish-input-group .form-control{
-  border-right:0; 
-  box-shadow:0 0 0; 
-  border-color:#ccc;
-}
-.stylish-input-group button{
-    border:0;
-    background:transparent;
 }
