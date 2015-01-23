@@ -52,6 +52,11 @@ body.loginBg {
   background-size: cover;
 }
 
+.loginPanel img {
+  max-height: 40px;
+  width: auto;
+}
+
 /* Navbar */
 
 .navbar {
