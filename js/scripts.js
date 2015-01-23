@@ -7,6 +7,7 @@
     //       Font-awesome - http://fortawesome.github.io/Font-Awesome/
     //       j-Query - http://jquery.com/
     //       Google fonts - https://www.google.com/fonts
+    //		 Ratings Stars http://dabblet.com/gist/1709019
   
 
 
