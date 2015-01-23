@@ -31,7 +31,7 @@
       <div class="container navContainer">
         
         <div class="navbar-header">
-          <a class="navbar-brand text-center" href="/">
+          <a class="navbar-brand text-center" href="index.html">
             <img src="img/logo.png" alt="More St Logo" class="img-responsive"> 
             <div class="clearfix"></div>
           </a>
@@ -55,52 +55,117 @@
         </div>     
       </div>
     </nav>
-
-
-    <section>
-      <div class="container results">
-        <div class="row">
-          <div class="col-md-8">
-            <div class="sectionContainer map" onclick="location.href='profile.html'">
-              <div class="sectionHeader">Map Results</div>
-              <div class="mapInner"></div>
-            </div> 
-          </div>
-          <div class="col-md-4">
-            <div class="sectionContainer">
-              <div class="sectionHeader">Filter Results</div>
-              <div class="checkBoxes">
-                <div class="checkBox">
-                  <img id="greenImg" src="img/green_checked.png" onclick="checkCheck(this, 'green');">
-                  <span>Producers</span> 
-                </div>
-                <div class="checkBox">
-                  <img id="orangeImg" src="img/orange_checked.png" onclick="checkCheck(this, 'orange');">
-                  <span>Land Available</span>
-                </div>
-                <div class="checkBox">
-                  <img id="yellowImg" src="img/yellow_unchecked.png" onclick="checkCheck(this, 'yellow');">
-                  <span>Allotments</span>
-                </div>
-                <div class="checkBox">
-                  <img id="purpleImg" src="img/purple_unchecked.png" onclick="checkCheck(this, 'purple');">
-                  <span>Markets</span>
-                </div>
+    
+    <div class="container results">
+      <div class="row">
+        
+        <section class="col-md-8">
+          <div class="sectionContainer map" onclick="location.href='profile.html'">
+            <div class="sectionHeader">Map Results</div>
+            <div class="mapInner"></div>
+          </div> 
+        </section>
+        
+        <section class="col-md-4">
+          <div class="sectionContainer">
+            <div class="sectionHeader">Filter Results</div>
+            <div class="checkBoxes">
+              <div class="checkBox">
+                <img id="greenImg" src="img/green_checked.png" onclick="checkCheck(this, 'green');">
+                <span>Producers</span> 
+              </div>
+              <div class="checkBox">
+                <img id="orangeImg" src="img/orange_checked.png" onclick="checkCheck(this, 'orange');">
+                <span>Land Available</span>
+              </div>
+              <div class="checkBox">
+                <img id="yellowImg" src="img/yellow_unchecked.png" onclick="checkCheck(this, 'yellow');">
+                <span>Allotments</span>
+              </div>
+              <div class="checkBox">
+                <img id="purpleImg" src="img/purple_unchecked.png" onclick="checkCheck(this, 'purple');">
+                <span>Markets</span>
               </div>
             </div>
-            <div class="sectionContainer">
-              <input type="search" placeholder="Search Again" id="resultsSearch"><br><br>
-              <a class="btn btn-primary" href="#" role="button">SEARCH AGAIN</a>
-            </div>
           </div>
+          <div class="sectionContainer">
+            <input type="search" placeholder="Search Again" id="resultsSearch"><br><br>
+            <a class="btn btn-primary" href="#" role="button">SEARCH AGAIN</a>
           </div>
+        </section>
+      
       </div>
-    </section>
+    </div>
+  
 
 
-    <footer class="footer">
+     <footer class="footer">
       <div class="container">
-        <p class="text-muted">Place sticky footer content here.</p>
+       <div class="row"></div>
+        <div class="col-md-2">
+          <div class="footerLinks">
+            <div class="footerLink header">News</div>
+            <div class="footerLink"><a href="#">Blog</a></div>
+            <div class="footerLink"><a href="#">NewsLetter</a></div>
+          </div>
+        </div>
+
+        <div class="col-md-2">
+          <div class="footerLinks">
+            <div class="footerLink header">Video</div>
+            <div class="footerLink"><a href="#">"How To" Video</a></div>
+            <div class="footerLink"><a href="#">Meet the community</a></div>
+          </div>
+        </div>
+
+        <div class="col-md-2">
+          <div class="footerLinks">
+            <div class="footerLink header">Help</div>
+            <div class="footerLink"><a href="#">About More Street</a></div>
+            <div class="footerLink"><a href="#">FAQ</a></div>
+            <div class="footerLink"><a href="#">Contact Us</a></div>
+            <div class="footerLink"><a href="#">Forum</a></div>
+            <div class="footerLink"><a href="#">Site Map</a></div>
+          </div>
+        </div>
+
+        <div class="col-md-2">
+          <div class="footerLinks">
+            <div class="footerLink header">Legal</div>
+            <div class="footerLink"><a href="#">Terms of Use</a></div>
+            <div class="footerLink"><a href="#">Privacy Policy</a></div>
+            <div class="footerLink"><a href="#">Code of Conduct</a></div>
+            <div class="footerLink"><a href="#">Contact Us</a></div>
+            <div class="footerLink"><a href="#">Sample Agreements</a></div>
+          </div>
+        </div>
+
+        <div class="col-md-2">
+          <div class="footerLinks">
+            <div class="footerLink header">Links</div>
+            <div class="footerLink"><a href="#">Dublin City Council</a></div>
+            <div class="footerLink"><a href="#">GIY Ireland</a></div>
+            <div class="footerLink"><a href="#">Irish Seed Savers</a></div>
+            <div class="footerLink"><a href="#">Dublin Community Growers</a></div>
+            <div class="footerLink"><a href="#">Eco Eye</a></div>
+          </div>
+        </div>
+
+        <div class="col-md-2">
+          <div class="footerLinks social">
+            <div class="footerLink header">Social Media</div>
+            <a href="https://twitter.com/">
+              <img src="img/twitter-48.png" alt="More Street Twitter">
+            </a>
+            <a href="https://plus.google.com/">
+              <img src="img/googleplus-48.png" alt="More Street Google +">
+            </a>
+            <a href="http://instagram.com/">
+              <img src="img/instagram-48.png" alt="More Street Instagram">
+            </a>
+          </div>
+        </div>
+
       </div>
     </footer>
 
@@ -114,5 +179,6 @@
     <!-- Inline Scripts -->
     <script src="js/scripts.js">
     </script>
+    
   </body>
 </html>
