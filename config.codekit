@@ -33,6 +33,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/googleplus-48.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2567,
+		"inputAbbreviatedPath": "\/img\/googleplus-48.png",
+		"outputAbbreviatedPath": "\/img\/googleplus-48.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/green_checked.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -62,6 +73,17 @@
 		"initialSize": 1.00278e+06,
 		"inputAbbreviatedPath": "\/img\/homeBg.jpg",
 		"outputAbbreviatedPath": "\/img\/homeBg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/instagram-48.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2243,
+		"inputAbbreviatedPath": "\/img\/instagram-48.png",
+		"outputAbbreviatedPath": "\/img\/instagram-48.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -165,6 +187,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/twitter-48.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2287,
+		"inputAbbreviatedPath": "\/img\/twitter-48.png",
+		"outputAbbreviatedPath": "\/img\/twitter-48.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/twitter-icon.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -198,15 +231,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/js\/bootstrap.min.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -239,15 +263,6 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
-		},
-	"\/profile.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/profile.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/test.html": {
 		"fileType": 8192,
